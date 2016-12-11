@@ -1,0 +1,24 @@
+#
+# Configuration file for POP3 daemon.
+# Blank lines, and lines starting with #, are treated as comments.
+#
+# Lines start with a keyword, followed by parameters separated by tabs
+# and/or spaces.
+#
+# Keywords:
+#       LOGGING         logtype
+#               specifies how logging is to be done:
+#               FILE    to %ETC%\POP3D.LOG [default]
+#               SYSLOG  to the SYSLOG daemon
+#
+#	SPLIT_SUBJECT	yes/no
+#		specifies whether over-long Subject: lines should
+#		be split:
+#		YES	split lines (at about 78 characters)
+#		NO	don't split lines [default]
+logging         file
+#
+# End of configuration file for POP3 daemon.
+#
+
+
